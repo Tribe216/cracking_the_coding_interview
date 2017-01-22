@@ -22,4 +22,4 @@ function compressString(str) {
   return result;
 }
 
-console.log(compressString("aabcccccaaa"));
+console.log(compressString("abcde"));

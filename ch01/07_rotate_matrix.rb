@@ -12,8 +12,6 @@ def diag_flip(arr)
   end
 end
 
-arr = [%w(a b c d), %w(e f g h), %w(i j k l), %w(m n o p)]
-
 def rotate(arr)
   diag_flip(arr)
   arr.each { |row| reverse_in_place(row) }
@@ -21,6 +19,5 @@ end
 
 arr = [%w(a b c d), %w(e f g h), %w(i j k l), %w(m n o p)]
 rotate(arr)
-rotate(arr)
-rotate(arr)
+
 p arr
